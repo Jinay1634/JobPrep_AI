@@ -1,0 +1,36 @@
+
+services:
+  backend:
+    build: ./backend
+    container_name: express-backend
+    command: npm run dev
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./backend:/app
+      - /app/node_modules
+    env_file:
+      - ./backend/.env
+    networks:
+      - app-network
+
+  frontend:
+    build: ./JobPrep_UI
+    container_name: jobprep-frontend
+    command: npm run dev
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./JobPrep_UI:/app
+      - /app/node_modules
+    env_file:
+      - ./JobPrep_UI/.env
+    depends_on:
+      - backend
+    networks:
+      - app-network
+
+
+networks:
+  app-network:
+    driver: bridge
