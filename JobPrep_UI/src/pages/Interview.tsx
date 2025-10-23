@@ -19,7 +19,7 @@ export const Interview = () => {
   const toast = useToast();
 
   useEffect(() => {
-    socket = io("http://localhost:3000", {
+    socket = io(import.meta.env.VITE_API_BASE_URL, {
       path: "/session",
       query: { roleId }
     });
