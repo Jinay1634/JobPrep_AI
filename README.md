@@ -85,23 +85,23 @@ JobPrep_AI/
 
 - **Login UI**
 
-![Login UI](./images/ss1.png)
+![Login UI](Images/ss1.png)
 
 - **Sign Up UI**
 
-![Sign Up UI](images/ss2.png)
+![Sign Up UI](Images/ss2.png)
 
 - **Home UI**
 
-![Home UI](images/ss3.png)
+![Home UI](Images/ss3.png)
 
 - **Interview Successful UI**
 
-![Interview Successful UI](images/ss4.png)
+![Interview Successful UI](Images/ss4.png)
 
 - **Interview Failed UI**
 
-![Interview Failed UI](images/ss5.png)
+![Interview Failed UI](Images/ss5.png)
 
 ## 🚀 Getting Started
 
