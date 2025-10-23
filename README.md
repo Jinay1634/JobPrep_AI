@@ -81,6 +81,28 @@ JobPrep_AI/
 - Multi-container orchestration with Docker Compose
 - Environment-based configuration management
 
+## 📸 Screenshots
+
+- **Login UI**
+
+![Login UI](images/ss1.png)
+
+- **Sign Up UI**
+
+![Sign Up UI](images/ss2.png)
+
+- **Home UI**
+
+![Home UI](images/ss3.png)
+
+- **Interview Successful UI**
+
+![Interview Successful UI](images/ss4.png)
+
+- **Interview Failed UI**
+
+![Interview Failed UI](images/ss5.png)
+
 ## 🚀 Getting Started
 
 ### Prerequisites
