@@ -85,7 +85,7 @@ JobPrep_AI/
 
 - **Login UI**
 
-![Login UI](images/ss1.png)
+![Login UI](./images/ss1.png)
 
 - **Sign Up UI**
 
