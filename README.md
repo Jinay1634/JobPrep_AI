@@ -3,7 +3,6 @@
 
 > An intelligent mock interview system using Google Gemini AI, real-time WebSocket communication, and full-stack TypeScript development.
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/jinaypatel1634/)
 
 ---
